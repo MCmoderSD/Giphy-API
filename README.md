@@ -1,5 +1,4 @@
 # Giphy-API
-[![](https://jitpack.io/v/MCmoderSD/Giphy-API.svg)](https://jitpack.io/#MCmoderSD/Giphy-API)
 
 ## Description
 Giphy-API is a Java library that provides an easy way to query GIFs from the [Giphy](https://giphy.com/) API. <br>
@@ -19,21 +18,22 @@ All data is stored in a `Gif` object, which contains the following information:
 ## Usage
 
 ### Maven
-Make sure you have the JitPack repository added to your `pom.xml` file:
+Make sure you have my Sonatype Nexus OSS repository added to your `pom.xml` file:
 ```xml
 <repositories>
     <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
+        <id>Nexus</id>
+        <name>Sonatype Nexus</name>
+        <url>https://mcmodersd.de/nexus/repository/maven-releases/</url>
     </repository>
 </repositories>
 ```
 Add the dependency to your `pom.xml` file:
 ```xml
 <dependency>
-    <groupId>com.github.MCmoderSD</groupId>
+    <groupId>de.MCmoderSD</groupId>
     <artifactId>Giphy-API</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 

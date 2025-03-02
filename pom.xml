@@ -5,17 +5,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.MCmoderSD</groupId>
-    <artifactId>giphy</artifactId>
-    <version>1.0.0</version>
+    <artifactId>Giphy-API</artifactId>
+    <version>1.0.1</version>
 
     <name>Giphy API</name>
     <description>Giphy-API is a Java library that provides an easy way to query GIFs from the Giphy API</description>
 
     <distributionManagement>
         <repository>
-            <id>Giphy-API</id>
-            <name>GitHub MCmoderSD Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/MCmoderSD/Giphy-API</url>
+            <id>Nexus</id>
+            <name>Sonatype Nexus</name>
+            <url>https://mcmodersd.de/nexus/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
@@ -31,14 +31,14 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.18.2</version>
+            <version>2.18.3</version>
         </dependency>
 
         <!-- Annotations -->
         <dependency>
             <groupId>org.jetbrains</groupId>
             <artifactId>annotations</artifactId>
-            <version>26.0.1</version>
+            <version>26.0.2</version>
             <scope>compile</scope>
         </dependency>
 
